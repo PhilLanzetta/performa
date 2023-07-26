@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Performa Biennial 2023`,
+    description: `Founded by art historian and curator RoseLee Goldberg, Performa is the leading organization dedicated to exploring the critical role of live performance in the history of twentieth-century art and to encouraging new directions in performance for the twenty-first century.`,
+    author: `@performanyc`,
+    siteUrl: `https://performa2023.org/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -36,7 +36,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.svg`, // This path is relative to the root of the site.
       },
     },
   ],
