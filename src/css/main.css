@@ -166,11 +166,11 @@ a:hover {
   }
 
   .info-text {
-    font-size: calc(14px);
+    font-size: 16px;
   }
 
   a:hover {
    color: #0808ff;
   }
-  
+
 }
