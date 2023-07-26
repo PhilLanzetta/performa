@@ -141,6 +141,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 10px;
   outline: 0.35vw solid #0808ff;
   margin-top: 0.35vw;
@@ -157,4 +158,19 @@ a:hover {
   .word-marquee {
     margin-bottom: 10vh;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .info-right {
+    font-size: 14px;
+  }
+
+  .info-text {
+    font-size: calc(14px);
+  }
+
+  a:hover {
+   color: #0808ff;
+  }
+  
 }
