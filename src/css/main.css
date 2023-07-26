@@ -173,4 +173,9 @@ a:hover {
    color: #0808ff;
   }
 
+  .hero:hover {
+  fill: #0808ff;
+  transition: 500ms;
+}
+
 }
