@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee"
 
 const Ticker = () => {
   return (
-    <Marquee className="word-marquee" gradient={false} speed={40}>
+    <Marquee className="word-marquee" gradient={false} speed={60}>
       {[...Array(10)].map((e, i) => (
         <div className="marquee-item" key={i}>
           Website Coming Soon
